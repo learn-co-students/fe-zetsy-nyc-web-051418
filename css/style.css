@@ -1,20 +1,89 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@font-face {
+    font-family: Baskerville;
+    src: "fonts/Baskerville.ttc";
+}
+
+h1 {
+    font-family: Baskerville;
+		color: rgb(156, 172, 166);
+		font-size: 78px;
+		line-height: 0;
+}
+
+h2 {
+	color: rgb(114,	126, 122);
+	font-size: 32px;
+}
+
+p {
+	color: rgb(101, 85, 85);
+}
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 1px 45px 20px;
+}
+
+footer {
+	float: right;
+	color: rgb(85, 85, 85);
+	font-size: 13px;
 }
 
 /* Write all remaining styles here */
+
+.border-line {
+  border-bottom: 1px solid rgb(204,	204,	204);
+	margin: 1px auto;
+}
+
+img {
+	border: 5px solid;
+	margin: 5px auto;
+}
+
+img.main {
+	color: rgb(156, 172, 166);
+}
+
+a:link {
+	text-decoration: none;
+	color: rgb(204, 204, 204);
+}
+
+a:visited {
+  color: rgb(58, 133, 191);
+}
+
+a:hover {
+    color: rgb(58, 133, 191);
+		text-decoration: underline;
+}
+
+a:active {
+    color: rgb(58, 133, 191);
+}
+
+span a:visited {
+    color: rgb(204, 204, 204);
+}
+
+span a:hover {
+    color: rgb(114, 126, 122);
+}
+
+span a:active {
+    color: rgb(114, 126, 122);
+}
