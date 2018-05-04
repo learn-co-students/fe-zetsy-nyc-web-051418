@@ -6,8 +6,9 @@
 
 body {
 	background: #F3EBE9;
+	color: #444;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +19,32 @@ body {
 }
 
 /* Write all remaining styles here */
+
+a {
+	text-decoration: none;
+}
+
+h1 {font-size:4em; margin:0;}
+h3 {font-size:2.5em; color: #9cada7;}
+
+
+#logo {
+	color: #9cada7;
+	border-bottom: 1px solid #9cada7;
+}
+
+.image {border: 4px solid #9cada7; cursor: pointer;}
+
+.fr {float: right;}
+.py1 {padding: 1em 0}
+.pb05 {padding-bottom: 0.5em;}
+.m0 {margin:0;}
+.mb5px {margin-bottom:5px;}
+.mx3px {margin:0 3px}
+.first {margin-left: 0;}
+.last {margin-right: 0;}
+
+
+/*---flex--*/
+.f {display:flex;}
+.fa {flex: 1 1 auto}
